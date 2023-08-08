@@ -1,0 +1,23 @@
+.Footer {
+    bottom: 100%;
+    margin-top: auto;
+    padding-top: 2rem;
+}
+
+.ApiStatusText {
+    margin-left: 5px;
+}
+
+.ApiStatusSpinner {
+    margin-left: 6px;
+}
+
+.CopyrightText {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.EducationOnlyText {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}

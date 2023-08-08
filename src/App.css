@@ -1,0 +1,24 @@
+.App {
+    max-width: 1280px;
+    padding: 2rem;
+    margin: 30px auto 0;
+    opacity: 95%;
+}
+
+.BotInfoText {
+    padding-bottom: 1rem;
+}
+
+.BotInfoInputStack {
+    padding-bottom: 1rem;
+}
+
+.OptionsFormText {
+    padding-top: 1rem;
+    padding-bottom: 9px;
+}
+
+.OptionsForm {
+    align-items: center;
+    padding-bottom: 2rem;
+}
