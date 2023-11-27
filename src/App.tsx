@@ -97,7 +97,7 @@ const App = () => {
                     destroyer</Heading>
 
                 {/* Bot information & attack options inputs */}
-                <h2 className={'BotInfoText'}>Bot's informations:</h2>
+                <h2 className={'BotInfoText'}>Bot informations:</h2>
                 <Stack className={'BotInfoInputStack'} direction={'column'} spacing={3}>
 
                     <InputGroup>
@@ -105,7 +105,7 @@ const App = () => {
                                isInvalid={!properties.inputToken}
                                isRequired={true} size={'lg'}
                                type={showToken ? 'text' : 'password'}
-                               placeholder={'Enter the bot\'s token'}/>
+                               placeholder={'Enter the bot token'}/>
                         <InputRightElement style={{display: !properties.inputToken ? 'none' : ''}} width={'5rem'}
                                            paddingTop={'8px'}>
                             <Button h={'1.75rem'} size={'sm'} onClick={() => handleShowTokenButton(!showToken)}>
